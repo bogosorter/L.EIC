@@ -66,7 +66,7 @@ $D' = [-\frac{\pi}{6}, \frac{5\pi}{6}]$
 $$
 \begin{align*}
 i^{-1}:\ &[-\frac{\pi}{6}, \frac{5\pi}{6}] \rightarrow\ \mathbb{R} \setminus\{-5\}\\
-&x \rightarrow \cotg{(x - \frac{\pi}{3})}
+&x \rightarrow cotg{(x - \frac{\pi}{3})}
 \end{align*}
 $$
 
@@ -120,7 +120,7 @@ $A =\mathbb{R} \setminus \{-1\}$
 $$
 \begin{align*}
 t^{-1}:\ &[-\frac{\pi}{4}, \frac{3\pi}{4}] \rightarrow\ \mathbb{R} \setminus \{-1\}\\
-&x \rightarrow \cotg{(x - \frac{\pi}{4})} - 1
+&x \rightarrow cotg{(x - \frac{\pi}{4})} - 1
 \end{align*}
 $$
 
@@ -132,7 +132,7 @@ $\frac{4\pi}{3}$
 
 **b)**
 
-$D = ]-\infin, -1] \cup[1, +\infty[$
+$D = ]-\infty, -1] \cup[1, +\infty[$
 
 $D' = [-\frac{2\pi}{3}, \frac{4\pi}{3}]$
 
@@ -145,7 +145,7 @@ $A = ]-\infty, 0[ \cup [2, +\infty[$
 $$
 \begin{align*}
 t^{-1}:\ &[-\frac{2\pi}{3}, \frac{4\pi}{3}] \rightarrow\ ]-\infty, -1] \cup[1, +\infty[\\
-&x \rightarrow \cosec{(\frac{3x - \pi}{6})}
+&x \rightarrow cosec{(\frac{3x - \pi}{6})}
 \end{align*}
 $$
 
