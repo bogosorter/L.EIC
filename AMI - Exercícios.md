@@ -59,13 +59,13 @@ Por alguma razão ainda me falta fazer esta...
 
 **d)**
 
-$D = \R \setminus\{-5\}$
+$D = \mathbb{R} \setminus\{-5\}$
 
 $D' = [-\frac{\pi}{6}, \frac{5\pi}{6}]$
 
 $$
 \begin{align*}
-i^{-1}:\ &[-\frac{\pi}{6}, \frac{5\pi}{6}] \rightarrow\ \R \setminus\{-5\}\\
+i^{-1}:\ &[-\frac{\pi}{6}, \frac{5\pi}{6}] \rightarrow\ \mathbb{R} \setminus\{-5\}\\
 &x \rightarrow \cotg{(x - \frac{\pi}{3})}
 \end{align*}
 $$
@@ -107,19 +107,19 @@ $\frac{\pi}{2}$
 
 **b)**
 
-$D = \R \setminus \{-1\}$
+$D =\mathbb{R} \setminus \{-1\}$
 
 $D' = [-\frac{\pi}{4}, \frac{3\pi}{4}]$
 
 **c)**
 
-$A = \R \setminus \{-1\}$
+$A =\mathbb{R} \setminus \{-1\}$
 
 **d)**
 
 $$
 \begin{align*}
-t^{-1}:\ &[-\frac{\pi}{4}, \frac{3\pi}{4}] \rightarrow\ \R \setminus \{-1\}\\
+t^{-1}:\ &[-\frac{\pi}{4}, \frac{3\pi}{4}] \rightarrow\ \mathbb{R} \setminus \{-1\}\\
 &x \rightarrow \cotg{(x - \frac{\pi}{4})} - 1
 \end{align*}
 $$
@@ -132,19 +132,19 @@ $\frac{4\pi}{3}$
 
 **b)**
 
-$D = ]-\infin, -1] \cup[1, +\infin[$
+$D = ]-\infin, -1] \cup[1, +\infty[$
 
 $D' = [-\frac{2\pi}{3}, \frac{4\pi}{3}]$
 
 **c)**
 
-$A = ]-\infin, 0[ \cup [2, +\infin[$
+$A = ]-\infty, 0[ \cup [2, +\infty[$
 
 **d)**
 
 $$
 \begin{align*}
-t^{-1}:\ &[-\frac{2\pi}{3}, \frac{4\pi}{3}] \rightarrow\ ]-\infin, -1] \cup[1, +\infin[\\
+t^{-1}:\ &[-\frac{2\pi}{3}, \frac{4\pi}{3}] \rightarrow\ ]-\infty, -1] \cup[1, +\infty[\\
 &x \rightarrow \cosec{(\frac{3x - \pi}{6})}
 \end{align*}
 $$
@@ -152,5 +152,3 @@ $$
 ###### 1.6 e 1.7
 
 Resolução aborrecida e, tanto quanto sei, não é preciso saber desenhar gráficos destas funções.
-
-
