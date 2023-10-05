@@ -51,11 +51,29 @@ $$
 
 **b)**
 
-Por alguma razão ainda me falta fazer esta...
+$D = [0, \frac{1}{2}]$
+
+$D' = [-1, 3\pi - 1]$
+
+$$
+\begin{align*}
+f^{-1}:\ &[-1, 3\pi - 1] \rightarrow\ [0, \frac{1}{2}]\\
+&x \rightarrow \frac{1}{4}(1 -\cos{\frac{y + 1}{3}})
+\end{align*}
+$$
 
 **c)**
 
-Por alguma razão ainda me falta fazer esta...
+$D = ]-\infty, -5] \cup [1, +\infty[$
+
+$D' = [\frac{\pi}{2}, \frac{5\pi}{2}]$
+
+$$
+\begin{align*}
+f^{-1}:\ &[\frac{\pi}{2}, \frac{5\pi}{2}] \rightarrow\ ]-\infty, -5] \cup [1, +\infty[\\
+&x \rightarrow 3\sec{\frac{2x + \pi}{4}} -2
+\end{align*}
+$$
 
 **d)**
 
