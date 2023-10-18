@@ -22,9 +22,11 @@ BACKGROUND = (60, 60, 60)
 COLOR1 = (40, 108, 147)
 COLOR2 = (153, 91, 192)
 
-WIDTH = 40
-HEIGHT = 20
-CELL_SIZE = 30
+WIDTH = 200
+HEIGHT = 100
+CELL_SIZE = 6
+
+TIME_INTERVAL = 100
 
 
 class CGLife:
@@ -110,7 +112,7 @@ class GameManager:
             
             if self.playing:
                 self.cglife.update()
-                pygame.time.wait(300)
+                pygame.time.wait(TIME_INTERVAL)
             elif mouse_event: self.cglife.click(mouse_event)
 
             self.draw()
