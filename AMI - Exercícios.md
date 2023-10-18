@@ -131,7 +131,7 @@ $D' = [-\frac{\pi}{4}, \frac{3\pi}{4}]$
 
 **c)**
 
-$A =\mathbb{R} \setminus \{-1\}$
+$A = ]-\infty, 2]\ \cup\ ]-1, +\infty[$
 
 **d)**
 
