@@ -96,7 +96,7 @@ $\frac{\pi}{3}$
 
 **b)**
 
-$D = [-2, 1]$
+$D = [-2, 0]$
 
 $D'= [-\frac{5\pi}{6}, \frac{\pi}{3}]$
 
@@ -108,7 +108,7 @@ $p(x) = 0 \Leftrightarrow x = \frac{\sqrt{3}}{2} + 1$
 
 $$
 \begin{align*}
-p^{-1}:\ &[-\frac{5\pi}{6}, \frac{\pi}{3}] \rightarrow\ [-2, 1]\\
+p^{-1}:\ &[-\frac{5\pi}{6}, \frac{\pi}{3}] \rightarrow\ [-2, 0]\\
 &x \rightarrow \cos{(\frac{\pi - 3x}{6})} - 1
 \end{align*}
 $$
