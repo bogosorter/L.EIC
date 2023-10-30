@@ -55,8 +55,8 @@ O determinante de uma matriz é definido recursivamente:
 
 - O determinante de uma matriz de uma entrada é essa entrada.
 
-- O determinante de uma matriz $n \times n$ é dado, para qualquer linha $i$ (ou por um processo análogo para uma coluna $j$) por uma expansão em co-fatores, ou seja.
-  
+- O determinante de uma matriz $n \times n$ é dado, para qualquer linha $i$ (ou por um processo análogo para uma coluna $j$) por uma expansão em co-fatores, ou seja,
+
 $$
 \det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + ... + a_{in}C_{in}
 $$
@@ -191,3 +191,11 @@ O método de Gauss permite também calcular facilmente a inversa de uma matriz. 
 **Definições:**
 
 - Característica - número de entradas guia numa matriz, que se representa por $car(A)$. Permite saber quais os sitemas possíveis (em que $car(A) = car[A|B]$), os sistemas possíveis e determinados (em que $car(A) = n$, sendo $n$ o número de incógnitas), e os sistemas indeterminados (em que $car(A) < n$).
+
+## Espaço euclidiano $\R^n$
+
+Um conjunto ordenado de vetores $B = (b_1, ..., b_n)$ é uma base de $\R^n$ se qualquer ponto ou vetor de $\R^n$ puder ser escrito como uma combinação linear única desses vetores - os vetores têm, por isso, de ser linearmente independentes. Um vetor $u$ pode ser escrito como $(\alpha_1, ..., \alpha_n)_B$, em que $\alpha_1, ..., \alpha_n$ são os coeficientes dessa combinação linear. $n$ é a dimensão de $\R^n$, e qualquer base de $\R^n$ têm exatamente $n$ vetores. O conjunto de vetores $((1, 0, ... , 0), (0, 1, ... , 0), ...,(0, 0, ..., 1))$ é a base canónica de $\R^n$.
+
+Um subespaço é definido, formalmente, como um subconjunto de $\R^n$ tal que a soma de dois vetores desse conjunto pertença ao mesmo conjunto, tal como a multiplicação de um desses vetores por um escalar. Por exemplo, a reta $y = x + 1$ não é um subestpaço de $R^2$. Basta considerar o vetor $(0, 1)$, que pertence ao conjunto, mas que quando multiplicado por $2$ gera o vetor $(0, 2)$, que já não pertence ao conjunto. Daí se conclui que um subespaço de $R^2$ inclui sempre a origem.
+
+Se o subespaço for formado pelas combinações lineares dos vetores $u_1, ..., u_n$, pode representar-se por $S = <u_1, ..., u_n>$. Se estes vetores forem linearmente independentes dizem-se uma base do subespaço vetorial $S$. Se $\R^n$ puder sempre ser escrito como a soma de dois vetores de espaços lineares $S_1$ e $S_2$, diz-se que $\R^n$ é uma soma direta destes espaços, o que se denota por $\R^n = S_1 \oplus S_2$.
