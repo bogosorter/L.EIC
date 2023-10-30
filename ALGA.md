@@ -186,7 +186,7 @@ O método de Gauss consiste em transformar uma matriz aplicando estes princípio
 
 Se o sistema for possível e determinado, a matriz em escada reduzida corresponde à identidade.
 
-O método de Gauss permite também calcular facilmente a inversa de uma matriz. Basta calcular a matriz em escada e reduzida de $[A|B]$. Se a matriz obtida for do tipo $[Id|B']$, então $B' = B^{-1}$. Caso contrário, $A$ não admite inversa.
+O método de Gauss permite também calcular facilmente a inversa de uma matriz. Basta calcular a matriz em escada e reduzida de $[A|Id]$. Se a matriz obtida for do tipo $[Id|B]$, então $B = A^{-1}$. Caso contrário, $A$ não admite inversa.
 
 **Definições:**
 
