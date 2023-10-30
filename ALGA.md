@@ -57,9 +57,9 @@ O determinante de uma matriz é definido recursivamente:
 
 - O determinante de uma matriz $n \times n$ é dado, para qualquer linha $i$ (ou por um processo análogo para uma coluna $j$) por uma expansão em co-fatores, ou seja.
   
-  $$
-  \det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + ... + a_{in}C_{in}
-  $$
+$$
+\det(A) = a_{i1}C_{i1} + a_{i2}C_{i2} + ... + a_{in}C_{in}
+$$
 
 A partir da última fórmula, pode-se deduzir uma expressão conveniente para o determinante de uma matriz $2\times 2$:
 
