@@ -1,12 +1,12 @@
 """
-A program that solves a determiate system of linear equations using Gauss-Jordan
+A program that solves a determinate system of linear equations using Gauss-Jordan
 elimitaion, by M7kra.
 https://m7kra.github.io/
 
 The program differs from the recommended implementation in that:
 - it uses OOP instead of functional programming
 - a slightly different strategy is used while solving the matrix (the same
-  strategy in our linear algebra classes)
+  strategy used in our linear algebra classes)
 """
 
 class Matrix:
