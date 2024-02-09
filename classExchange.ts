@@ -17,11 +17,11 @@
 
 
 function main() {
-    change(10, 16, 100);
+    exchange(10, 16, 100);
 }
 
 // Find a cycle that includes the edge a -> b
-function change(a: number, b: number, iterations: number = 1) {
+function exchange(a: number, b: number, iterations: number = 1) {
     let best: number[] | null = null;
     for (let i = 0; i < iterations; i += 1) {
         const result = dfs(b, a, new Set());

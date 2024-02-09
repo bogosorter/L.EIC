@@ -18,10 +18,10 @@ Instructions:
 from random import shuffle
 
 def main():
-    change(10, 16, 1000)
+    exchange(10, 16, 1000)
 
 # Find a cycle that includes the edge a -> b
-def change(a, b, iterations):
+def exchange(a, b, iterations):
     best = None
     for _ in range(iterations):
         result = dfs(b, a, set())
