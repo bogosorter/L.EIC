@@ -4,7 +4,7 @@
 
 
 .data
-n: .word 0x0000000A ,0x00000000 ,0x00000000 ,0x00000000
+n: .word 0x00000013 ,0x00000000 ,0x00000000 ,0x00000000
 factorial: .word 0x00000000, 0x00000000, 0x00000000, 0x00000000
 aux1: .space 16
 aux2: .space 16
@@ -124,12 +124,12 @@ ADD:
         # Calculate 32 bit addition result
         lw t3, 0(a0)
         add t5, t0, t3
+        sltu t0, t5, t3
         lw t3, 0(a1)
         add t2, t5, t3
         sw t2, 0(a2)
         # Set overflow flag
-        slt t0, t2, t3
-        slt t5, t2, t5
+        sltu t5, t2, t3
         or t0, t0, t5
 
         # Increment adresses
